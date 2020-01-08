@@ -165,4 +165,8 @@ This is DEPRECATED, use %s instead." prelude-modules-file))
  ;; greet the use with some useful tip
  (run-at-time 5 nil 'prelude-tip-of-the-day))
 
+;(setq geiser-set-scheme "/usr/bin/chezscheme")
+(setq geiser-active-implementations '(chez))
+(setq geiser-chez-binary "/usr/bin/chezscheme")
+
 ;;; init.el ends here
